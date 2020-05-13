@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Сайт для соискателей</title>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta name="keywords" content="Сайт для соискателей">
+    <meta name="description" content="Сайт для соискателей">
+    <meta name="viewport"
+        content="minimum-scale=1.0, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!--Normalize CSS-->
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <!--Modal CSS-->
+    <link rel="stylesheet" type="text/css" href="./css/plugins/jquery.modal.min.css">
+    <!--Font CSS-->
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css">
+    <!--Animate AOS CSS-->
+    <link rel="stylesheet" type="text/css" href="./css/plugins/aos.css">
+    <!--Style CSS-->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <main>
+        <section class="white top">
+            <div class="new-container">
+                <div class="top-wrapper flex-block">
+                    <div class="top-wrapper-description" data-aos="fade-down" data-aos-duration="1200"
+                        data-aos-delay="300" data-aos-once="true">
+                        <div class="top-wrapper-title semibold">стать оператором колл-центра
+                        </div>
+                        <div class="top-wrapper-text">Для того, чтобы стать оператором колл-центра Вам
+                            необходимо ознакомиться с договором, прикрепленным в ссылке ниже.
+                        </div>
+                        <a href="javascript: void(0)" target="_blank" class="top-wrapper-link_wrapper flex-block">
+                            <img class="img" src="./media/icons/arrow-down.svg">
+                            <span>Посмотреть договор</span>
+                        </a>
+                    </div>
+                    <div class="top-wrapper-img" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="500"
+                        data-aos-once="true">
+                        <div class="img" style="background-image: url(./media/img/top-img.jpg);"></div>
+                        <!-- <img class="img" src="./media/img/top-img.jpg" alt=""> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="grey" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="300" data-aos-once="true">
+            <div class="new-container">
+                <div class="offer_wrapper flex-block">
+                    <div class="offer-img_wrapper" style="background-image: url(./media/img/image.jpg)">
+                    </div>
+                    <div class="offer-description_wrapper flex-block">
+                        <h2 class="heading heading-black semibold">Как стать оператором колл-центра?</h2>
+                        <ol class="offer-list">
+                            <li>Скачайте договор по <a href="javascript: void(0)" class="link"
+                                    target="_blank">ссылке</a> и ознакомьтесь
+                                с ним</li>
+                            <li>Заполните форму ниже и прикрепите все документы</li>
+                            <li>Напишите согласие с условиями договора от руки и приложите его скан или фотографию в
+                                соответствующее поле ниже</li>
+                            <li>Если Вы самозанятый прикрепите скриншот из приложения «Мой Налог», если нет – не
+                                заполняйте поле для самозанятых</li>
+                            <li>Нажмите «отправить». Вам позвонит неизвестный номер, последние 4 цифры этого номера
+                                необходимо ввести в поле ввода
+                                формы, которая появится после заполнения формы с документами
+                            </li>
+                            <li>Если возникнут проблемы, звоните по номеру: <a href="tel: 88005002330"
+                                    class="link">8(800) 500 23-30</a></li>
+                        </ol>
+                        <a href="javascript: void(0)" target="_blank" class="big-link link">Скачайте договор здесь</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="white" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="300" data-aos-once="true">
+            <div class="new-container">
+                <div class="form-steps_wrapper">
+                    <div class="steps_wrapper semibold">Шаг <span class="step_current">1</span> / <span
+                            class="step_total">2</span>
+                    </div>
+                    <h2 class="heading heading-black text-center semibold">Заполните форму и будьте одним из нас!</h2>
+                    <form class="form-steps_block" action="" method="POST" id="form-steps">
+                        <div class="step_wrapper open">
+                            <div class="inputs-selects_wrapper flex-block">
+                                <div class="default-input_wrapper">
+                                    <input type="file" id='input-passport' name="Паспорт 1 стр."
+                                        class="input-default input-hidden">
+                                    <label for="input-passport" class="label-default pointer">
+                                        <span class="label-default-img"
+                                            style="background-image: url(./media/icons/staple.svg);">
+                                        </span>
+                                        <span class="label-default-file">Приложить фото 1 стр паспорта</span>
+                                    </label>
+                                </div>
+                                <div class="default-input_wrapper">
+                                    <input type="file" id='input-inn' name="ИНН" class="input-default input-hidden">
+                                    <label for="input-inn" class="label-default pointer">
+                                        <span class="label-default-img"
+                                            style="background-image: url(./media/icons/staple.svg);">
+                                        </span>
+                                        <span class="label-default-file">Приложить фото ИНН</span>
+                                    </label>
+                                </div>
+                                <div class="default-input_wrapper">
+                                    <input type="file" id='input-passport2' name="Паспорт 2 стр."
+                                        class="input-default input-hidden">
+                                    <label for="input-passport2" class="label-default pointer">
+                                        <span class="label-default-img"
+                                            style="background-image: url(./media/icons/staple.svg);">
+                                        </span>
+                                        <span class="label-default-file">Приложить фото 2 стр паспорта</span>
+                                    </label>
+                                </div>
+                                <div class="default-input_wrapper">
+                                    <input type="file" id='input-snils' name="СНИЛС" class="input-default input-hidden">
+                                    <label for="input-snils" class="label-default pointer">
+                                        <span class="label-default-img"
+                                            style="background-image: url(./media/icons/staple.svg);">
+                                        </span>
+                                        <span class="label-default-file">Приложить фото СНИЛС</span>
+                                    </label>
+                                </div>
+                                <div class="default-input_wrapper">
+                                    <input type="file" id='input-registration' name="Действующая прописка"
+                                        class="input-default input-hidden">
+                                    <label for="input-registration" class="label-default pointer">
+                                        <span class="label-default-img"
+                                            style="background-image: url(./media/icons/staple.svg);">
+                                        </span>
+                                        <span class="label-default-file">Приложить фото СНИЛС</span>
+                                    </label>
+                                </div>
+                                <div class="default-input_wrapper">
+                                    <input type="file" id='input-dogovor' name="Согласие с условиями договора"
+                                        class="input-default input-hidden">
+                                    <label for="input-dogovor" class="label-default pointer">
+                                        <span class="label-default-img"
+                                            style="background-image: url(./media/icons/staple.svg);">
+                                        </span>
+                                        <span class="label-default-file">Согласие с условиями договора</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step_wrapper">
+                            <div class="inputs-selects_wrapper flex-block">
+                                <div class="default-input_wrapper required">
+                                    <input type="text" class="input-default input-text"
+                                        placeholder="Фамилия (как в паспорте)">
+                                </div>
+                                <div class="default-input_wrapper required">
+                                    <input type="text" class="input-default input-text"
+                                        placeholder="Имя (как в паспорте)">
+                                </div>
+                                <div class="default-input_wrapper required">
+                                    <input type="text" class="input-default input-text"
+                                        placeholder="Отчество (как в паспорте)">
+                                </div>
+                                <div class="default-input_wrapper required">
+                                    <input type="tel" tabindex="" class="input-default input-phone"
+                                        placeholder="+7   Введите 10 цифр номера">
+                                </div>
+                                <div class="default-input_wrapper ">
+                                    <input type="text" class="input-default input-email" placeholder="E-mail">
+                                </div>
+                                <div class="default-input_wrapper">
+                                    <input type="file" id='input-status' name="Скриншот статуса самозанятого"
+                                        class="input-default input-hidden">
+                                    <label for="input-status" class="label-default pointer">
+                                        <span class="label-default-img"
+                                            style="background-image: url(./media/icons/staple.svg);">
+                                        </span>
+                                        <span class="label-default-file">Скриншот статуса самозанятого</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="comlpiance_wrapper">Выполнение лицом, претендующим на заключение договора действий на
+                        условиях, изложенных на этой странице, подтверждает
+                        его согласие на обработку персональных данных, необходимых для заключения и исполнения
+                        указанного договора.
+                    </div>
+                    <div class="submit-btn_wrapper text-center">
+                        <button type="submit" form="form-steps" data-text="Отправить форму"
+                            class="submit-btn btn btn_blue btn_uppercase pointer disabled" disabled>К следующему
+                            шагу</button>
+                        <!-- disabled для выключенной кнопки -->
+                    </div>
+                    <div class="link_wrapper">
+                        <a href="javascript: void(0)" class="link">Назад</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer_land" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="300" data-aos-once="true">
+        <div class="new-container">
+            <div class="question-form_wrapper flex-block">
+                <div class="question-form_wrapper--left">
+                    <div class="img" style="background-image: url(./media/img/form-img.jpg);"></div>
+                    <!-- <img class="img" src="./media/img/form-img.jpg" alt=""> -->
+                </div>
+                <div class="question-form_wrapper--right">
+                    <form class="question-form" action="" method="POST" id="question-form">
+                        <div class="question-form_heading text-center semibold">Если что-то пошло не так?</div>
+                        <div class="question-form_subtitle text-center">Вам не пришел код или что-то не загрузилось?
+                            Сообщите о Вашей проблеме нам и мы ее решим! Просто оставьте свои контакты.
+                        </div>
+                        <div class="question-form_inputs-selects flex-block">
+                            <div class="default-input_wrapper ">
+                                <input type="text" class="input-default input-text" placeholder="Имя">
+                            </div>
+                            <div class="default-input_wrapper required">
+                                <input type="tel" class="input-default input-phone"
+                                    placeholder="+7   Введите 10 цифр номера" inputmode="verbatim">
+                            </div>
+                            <div class="default-input_wrapper">
+                                <input type="text" class="input-default" placeholder="Комментарий">
+                            </div>
+                            <button type="submit" form="question-form"
+                                class="btn btn_blue btn_uppercase question-form_submit ">Отправить
+                            </button>
+                        </div>
+                    </form>
+                    <div class="question-form_img-wrapper">
+                        <img class="img" src="./media/icons/letter.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal modal-steps" id="modal-form-steps">
+        <div class="modal-wrapper">
+            <form class="modal-form modal-steps-form" id="modal-steps-form" method="POST" action="">
+                <h2 class="heading heading-black text-center semibold">Вы успешно заполнили форму!</h2>
+                <span class="sub-text text-center">Подтвердите Ваш номер телефона, набрав в поле ввода последние 4 цифры
+                    неизвестного номера, который Вам сейчас позвонит</span>
+                <div class="default-input_wrapper required">
+                    <input type="tel" class="input-default input-four" placeholder="Введите последние 4 цифры">
+                </div>
+            </form>
+            <button type="submit" form="modal-steps-form" class="submit-btn btn btn_blue btn_uppercase pointer">
+                отправить
+            </button>
+            <div class="modal-bottom-text text-center">Выполнение лицом, претендующим на заключение договора действий на
+                условиях,
+                изложенных на этой странице, подтверждает
+                его согласие на обработку персональных данных, необходимых для заключения и исполнения указанного
+                договора.</div>
+        </div>
+    </div>
+
+    <!--Jquery 3.3.1-->
+    <script src="./js/librarys/jquery-3.3.1.min.js"></script>
+    <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <!--Modal JS-->
+    <script src="./js/plugins/jquery.modal/jquery.modal.min.js"></script>
+    <!--MaskedInput JS-->
+    <script src="./js/plugins/inputmask/jquery.inputmask.min.js"></script>
+    <!--Current Device JS-->
+    <script src="./js/plugins/current-device/device.js"></script>
+    <!--AOS JS-->
+    <script src="./js/plugins/aos-master/aos.js"></script>
+    <!--Main JS-->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
